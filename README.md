@@ -12,13 +12,13 @@ Network testing (e.g. bandwidth & latency impact) is out of scope of this benchm
 
 Prerequisits :
 
-`docker , docker-compose, gcc , python3, python3-dev`
+`docker , docker-compose, gcc , python3, python3-dev, python3-venv`
 
 Run the test: 
 ```
 git clone https://github.com/gr0vity-dev/nano-bench.git
 cd nano-bench
-./bench.sh 
+sudo ./bench.sh 
 ```
 
 For Fedora/CentOS, you may also need the following to resolve dependency & permission issues:
